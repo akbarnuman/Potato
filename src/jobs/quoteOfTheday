@@ -1,0 +1,32 @@
+const cron = require('node-cron');
+const { getRandomQuote } = require('../services/quoteService');
+const { getAllQuoteChannels } = require('../services/settingsService');
+const logger = require('../utils/logger');
+
+function startQuoteOfTheDayJob(client) {
+  cron.schedule('0 9 * * *', async () => {
+    const quote = await getRandomQuote();
+    if (!quote) {
+      logger.error('Quote of the Day skipped — no quote available from quotable.io today');
+      return;
+    }
+
+    const settings = await getAllQuoteChannels();
+    for (const setting of settings) {
+      try {
+        const channel = await client.channels.fetch(setting.quoteChannelId);
+        await channel.send({
+          content: `📖 **Quote of the Day**\n*"${quote.text}"*\n— ${quote.author}`,
+        });
+      } catch (err) {
+        logger.error(`Failed to send daily quote to guild ${setting.guildId}: ${err.message}`);
+      }
+    }
+
+    logger.info(`Quote of the Day sent to ${settings.length} server(s)`);
+  });
+
+  logger.info('Quote of the Day job scheduled (9:00 AM daily)');
+}
+
+module.exports = startQuoteOfTheDayJob;
