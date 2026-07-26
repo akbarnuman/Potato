@@ -2,7 +2,7 @@
 
 A Discord bot for readers and book communities. More than a search bot — it tracks your reading progress, keeps your streak alive, remembers your wishlist, recommends books, delivers real quotes, and lets you show off a public reading profile with badges.
 
-Built with **Node.js**, **discord.js**, and **MongoDB**.
+Built with **Node.js**, **discord.js**, and **MongoDB Atlas**.
 
 ---
 
