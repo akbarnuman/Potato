@@ -9,24 +9,24 @@ Built with **Node.js**, **discord.js**, and **MongoDB Atlas**.
 
 ## ✨ Features
 
-#### 📸 Screenshots
+## 📸 Screenshots
 
-### 📚 Book Search
+###  Book Search
 
 <img width="400" height="220" alt="Screenshot 2026-07-27 141647" src="https://github.com/user-attachments/assets/79f3bc5f-382a-431c-895a-730586cf0a40" />
 
 
-### 👤 Author Search
+###  Author Search
 
 <img width="611" height="252" alt="Screenshot 2026-07-27 141713" src="https://github.com/user-attachments/assets/4e8d166c-8555-4a63-811a-d14db9565d22" />
 
 
-### 📖 Reading Profile
+###  Reading Profile
 
 <img width="600" height="368" alt="Screenshot 2026-07-27 141836" src="https://github.com/user-attachments/assets/d52007d9-d59f-48cd-8bb6-a0eb69b5c7df" />
 
 
-### Quotes
+###  Quotes
 
 <img width="500" height="130" alt="Screenshot 2026-07-27 141915" src="https://github.com/user-attachments/assets/20975928-54a0-42e0-8d5d-9dffb7fcb32c" />
 
