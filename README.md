@@ -139,6 +139,8 @@ Deployed on [Render](https://render.com) as a free Web Service, paired with a li
 
 ---
 
-## 📄 License
+## 👨‍💻 Author
 
-MIT
+**Md Akbar Ansari**
+
+If you found this project interesting, consider giving it a ⭐ on GitHub.
