@@ -9,6 +9,22 @@ Built with **Node.js**, **discord.js**, and **MongoDB Atlas**.
 
 ## ✨ Features
 
+## 📸 Screenshots
+
+### 📚 Book Search
+
+![Book Search](<img width="400" height="220" alt="Screenshot 2026-07-27 141647" src="https://github.com/user-attachments/assets/56b34e5a-27a5-4eaf-a0b8-1da677eb8e43" />
+)
+
+### 👤 Author Search
+
+![Author Search](./screenshots/author-search.png)
+
+### 📖 Reading Tracker
+
+![Reading Tracker](./screenshots/reading-tracker.png)
+
+
 ### 📚 Discover
 - `/book <title>` — search any book, with cover, author, year, pages, genres, and a "Read Free" button when a legal public-domain copy exists
 - `/author <name>` — author bio, birth/death, nationality, famous works
