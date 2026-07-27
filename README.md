@@ -7,9 +7,9 @@ Built with **Node.js**, **discord.js**, and **MongoDB Atlas**.
 
 ---
 
-## ✨ Features
+### ✨ Features
 
-### 📸 Screenshots
+## 📸 Screenshots
 
 ### 📚 Book Search
 
@@ -18,11 +18,18 @@ Built with **Node.js**, **discord.js**, and **MongoDB Atlas**.
 
 ### 👤 Author Search
 
-![Author Search](./screenshots/author-search.png)
+<img width="611" height="252" alt="Screenshot 2026-07-27 141713" src="https://github.com/user-attachments/assets/4e8d166c-8555-4a63-811a-d14db9565d22" />
 
-### 📖 Reading Tracker
 
-![Reading Tracker](./screenshots/reading-tracker.png)
+### 📖 Reading Profile
+
+<img width="600" height="368" alt="Screenshot 2026-07-27 141836" src="https://github.com/user-attachments/assets/d52007d9-d59f-48cd-8bb6-a0eb69b5c7df" />
+
+
+### Quotes
+
+<img width="500" height="130" alt="Screenshot 2026-07-27 141915" src="https://github.com/user-attachments/assets/20975928-54a0-42e0-8d5d-9dffb7fcb32c" />
+
 
 
 ### 📚 Discover
