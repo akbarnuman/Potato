@@ -7,9 +7,9 @@ Built with **Node.js**, **discord.js**, and **MongoDB Atlas**.
 
 ---
 
-### ✨ Features
+## ✨ Features
 
-## 📸 Screenshots
+#### 📸 Screenshots
 
 ### 📚 Book Search
 
