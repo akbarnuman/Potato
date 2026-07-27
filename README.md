@@ -1,6 +1,7 @@
-# 📖 Reading Companion — Discord Bot
+# 🥔 Potato
+### A Discord Bot for Book Lovers
 
-A Discord bot for readers and book communities. More than a search bot — it tracks your reading progress, keeps your streak alive, remembers your wishlist, recommends books, delivers real quotes, and lets you show off a public reading profile with badges.
+A Discord bot for readers and book communities. More than just a search bot—it helps you discover books, track your reading progress, maintain reading streaks, manage your wishlist, explore real quotes, and showcase your public reading profile, all without leaving Discord.
 
 Built with **Node.js**, **discord.js**, and **MongoDB Atlas**.
 
@@ -95,7 +96,7 @@ src/
 ### Installation
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/discord-reading-bot.git
+git clone https://github.com/YOUR_USERNAME/potato.git
 cd discord-reading-bot
 npm install
 ```
