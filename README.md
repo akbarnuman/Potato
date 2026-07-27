@@ -9,7 +9,7 @@ Built with **Node.js**, **discord.js**, and **MongoDB Atlas**.
 
 ## ✨ Features
 
-## 📸 Screenshots
+### 📸 Screenshots
 
 <table>
 <tr>
@@ -38,33 +38,33 @@ Built with **Node.js**, **discord.js**, and **MongoDB Atlas**.
 </table>
 
 
-## 📚 Discover
+### 📚 Discover
 - `/book <title>` — search any book, with cover, author, year, pages, genres, and a "Read Free" button when a legal public-domain copy exists
 - `/author <name>` — author bio, birth/death, nationality, famous works
 - `/similar <title>` — books similar in genre/theme
 - `/random [genre]` — a random pick, with an "Another Random Book" button
 - `/recommend genre:<genre>` — genre-based recommendations
 
-## 📖 Reading Tracker
+### 📖 Reading Tracker
 - `/start title:<title> pages:<n>` — start tracking a book
 - `/progress pages:<n>` — update your current page
 - `/current` — see your active book, progress %, and estimated completion
 - `/finished` — mark a book complete, move it to your history
 
-## 📝 Wishlist
+### 📝 Wishlist
 - `/wishlist add|remove|view` — manage a personal, duplicate-free wishlist
 
-## 🔥 Reading Streak
+### 🔥 Reading Streak
 - `/read` — log today's reading session; tracks current and longest streak
 
-## 💬 Quotes
+### 💬 Quotes
 - `/quote book:<title>` — a real quote sourced from Wikiquote
 - `/quote author:<name>` — a real, attributed author quote
 - `/quote` — a random quote
 - Daily **Quote of the Day**, auto-posted via `/setquotechannel` (admin-only)
 - No fabricated quotes — if no legally-sourced quote is available, the bot says so honestly
 
-## 👤 Public Reading Profile
+### 👤 Public Reading Profile
 - `/collection [@user]` — view your own or someone else's reading profile: currently reading, completed books, wishlist preview, streaks, total pages read, auto-calculated favorite genre, and reading badges
 - `/privacy mode:<public|private>` — control who can see your profile
 - Buttons to drill into **Current Book**, **Completed Books**, **Wishlist**, and **Reading Stats**
