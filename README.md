@@ -1,6 +1,7 @@
-# 📖 Reading Companion — Discord Bot
+# 🥔 Potato
+### A Discord Bot for Book Lovers
 
-A Discord bot for readers and book communities. More than a search bot — it tracks your reading progress, keeps your streak alive, remembers your wishlist, recommends books, delivers real quotes, and lets you show off a public reading profile with badges.
+A Discord bot for readers and book communities. More than just a search bot—it helps you discover books, track your reading progress, maintain reading streaks, manage your wishlist, explore real quotes, and showcase your public reading profile, all without leaving Discord.
 
 Built with **Node.js**, **discord.js**, and **MongoDB Atlas**.
 
@@ -8,33 +9,62 @@ Built with **Node.js**, **discord.js**, and **MongoDB Atlas**.
 
 ## ✨ Features
 
-### 📚 Discover
+### 📸 Screenshots
+
+<table>
+<tr>
+<td align="center">
+<b> Book Search</b><br><br>
+<img src="https://github.com/user-attachments/assets/79f3bc5f-382a-431c-895a-730586cf0a40" width="450">
+</td>
+
+<td align="center">
+<b> Author Search</b><br><br>
+<img src="https://github.com/user-attachments/assets/4e8d166c-8555-4a63-811a-d14db9565d22" width="450">
+</td>
+</tr>
+
+<tr>
+<td align="center">
+<b> Reading Profile</b><br><br>
+<img src="https://github.com/user-attachments/assets/d52007d9-d59f-48cd-8bb6-a0eb69b5c7df" width="450">
+</td>
+
+<td align="center">
+<b> Quotes</b><br><br>
+<img src="https://github.com/user-attachments/assets/20975928-54a0-42e0-8d5d-9dffb7fcb32c" width="450">
+</td>
+</tr>
+</table>
+
+
+###  Discover
 - `/book <title>` — search any book, with cover, author, year, pages, genres, and a "Read Free" button when a legal public-domain copy exists
 - `/author <name>` — author bio, birth/death, nationality, famous works
 - `/similar <title>` — books similar in genre/theme
 - `/random [genre]` — a random pick, with an "Another Random Book" button
 - `/recommend genre:<genre>` — genre-based recommendations
 
-### 📖 Reading Tracker
+###  Reading Tracker
 - `/start title:<title> pages:<n>` — start tracking a book
 - `/progress pages:<n>` — update your current page
 - `/current` — see your active book, progress %, and estimated completion
 - `/finished` — mark a book complete, move it to your history
 
-### 📝 Wishlist
+###  Wishlist
 - `/wishlist add|remove|view` — manage a personal, duplicate-free wishlist
 
-### 🔥 Reading Streak
+###  Reading Streak
 - `/read` — log today's reading session; tracks current and longest streak
 
-### 💬 Quotes
+###  Quotes
 - `/quote book:<title>` — a real quote sourced from Wikiquote
 - `/quote author:<name>` — a real, attributed author quote
 - `/quote` — a random quote
 - Daily **Quote of the Day**, auto-posted via `/setquotechannel` (admin-only)
 - No fabricated quotes — if no legally-sourced quote is available, the bot says so honestly
 
-### 👤 Public Reading Profile
+###  Public Reading Profile
 - `/collection [@user]` — view your own or someone else's reading profile: currently reading, completed books, wishlist preview, streaks, total pages read, auto-calculated favorite genre, and reading badges
 - `/privacy mode:<public|private>` — control who can see your profile
 - Buttons to drill into **Current Book**, **Completed Books**, **Wishlist**, and **Reading Stats**
@@ -95,7 +125,7 @@ src/
 ### Installation
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/discord-reading-bot.git
+git clone https://github.com/YOUR_USERNAME/potato.git
 cd discord-reading-bot
 npm install
 ```
@@ -138,6 +168,8 @@ Deployed on [Render](https://render.com) as a free Web Service, paired with a li
 
 ---
 
-## 📄 License
+## 👨‍💻 Author
 
-MIT
+**Md Akbar Ansari**
+
+If you found this project interesting, consider giving it a ⭐ on GitHub.
