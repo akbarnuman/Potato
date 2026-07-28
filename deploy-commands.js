@@ -15,7 +15,7 @@ const rest = new REST().setToken(token);
 
 (async () => {
   try {
-    await rest.put(Routes.applicationGuildCommands(clientId, guildId), { body: commands });
+    await rest.put(Routes.applicationCommands(clientId), { body: commands });
     logger.info(`Registered ${commands.length} guild command(s)`);
   } catch (err) {
     logger.error(err.message);
